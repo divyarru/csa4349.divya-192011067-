@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>box model </title>
+    <style>
+        .inner {
+            background-color: pink;
+            width: 500px;
+            height: 100px;
+
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .outer {
+            border-style: solid;
+            border-color: purple;
+            width: 500px;
+            background-color: purple;
+            padding: 25px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="inner">
+            <p>
+                bts is the most viewed kpop group internationally
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
